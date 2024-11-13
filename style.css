@@ -1,0 +1,145 @@
+
+.menu {
+    width: 100%; height: 75px; 
+    display: flex;
+}
+.menuRect {
+    width: 45%; height: 100%;
+    display: flex; align-items: center; gap: 10px;
+}
+
+.menuButtons {
+    background: transparent; border: transparent; 
+}
+
+.logo {
+    width: 8%; height: 100%;
+}
+.signRect{
+    width: 45%; height: 100%;
+}
+.signUpBagRect{
+    width: 46%; display: flex; justify-content:flex-end; align-items: center;
+}
+.signUpButton {
+    height: 35px; width: 80px; border-radius: 15px; font-size: 12px;
+    background: transparent;
+    border: 2px solid #F25600; color: #F25600; 
+}
+.bagButton {
+    height: 35px; width: 80px; border-radius: 15px; font-size: 12px;
+    background: #F25600;
+    border: 2px solid #F25600; color: white;
+}
+.smallImage{
+    width: 100%; height: 100%;
+}
+
+.mainImage{
+
+    width: 100%; height: 100vh;
+}
+.mainImagePic {
+    width: 100%; height: 100%;
+}
+
+.orderRect {
+
+    width: 550px; height: 350px;
+    position: relative;
+    margin-top: -600px;
+    margin-left: 275px;
+    background-color: rgba(255,238,222, 0.9);
+    border-radius: 10px;   
+    
+}
+
+.orderRectFrame {
+    width: 80%; height: 70%; margin-left: 50px; 
+}
+
+.orderPickupButton {
+    background: #F25600;
+    border: 2px solid #F25600; color: white; border-radius: 30px; width: 40%; font-size: 18px;
+}
+
+.orderDeliveryButton {
+    background: #F25600;
+    border: 2px solid #F25600; color: white; border-radius: 30px; width: 40%; font-size: 18px;
+}
+
+.orderAndPickupRect {
+    width: 100%; height: 50px; display: flex;
+    gap: 15px;
+}
+
+.gridLayout {
+    width: 100%; height: 70h; background-color: #F5F1EF; 
+
+}
+
+.gridRect {
+   width: 96%; height: 75%;  margin-left: 30px; margin-right: 30px;
+   display: flex; gap: 5%; background-color: #F5F1EF;
+}
+.itemOne{
+    width: 30%; height: 100%; border-radius: 15px;  margin-top: 15px;
+}
+
+.itemImageOne{
+    width: 100%; height: 50%; 
+}
+.itemOneImg{
+    width: 100%; height: 50%; 
+}
+.itemOneDescrption{
+    width: 100%; height: 180px; background-color: #FFFFFF;  border-radius: 15px;  margin-top: -10px;
+}
+
+.orderNowButton {
+    width: 100px; height: 35px; border-radius: 20px;
+    margin-top: 15px; margin-left: 70%;
+    background: transparent;
+    border: 2px solid #F25600; color: #F25600;
+}
+.orderAheadButton {
+    width: 100px; height: 35px; border-radius: 20px;
+    margin-top: 10px; margin-left: 70%;
+    background: transparent;
+    border: 2px solid #F25600; color: #F25600;
+}
+
+.learnMoreButton {
+    width: 100px; height: 35px; border-radius: 20px;
+    margin-top: 40px; margin-left: 70%;
+    background: transparent;
+    border: 2px solid #F25600; color: #F25600;
+}
+
+
+.justSpacing {
+    width: 100%; height: 15px; background-color: #F5F1EF;
+}
+
+.bottomArea {
+    width: 100%; height: 65vh; border-style: dotted; background-color: black;
+    
+}
+.bottomContentRect{
+    width: 65%; height: 70%; border-style: dotted;  margin-top: 50px;
+    margin-left: 18%; 
+}
+.footerMenu {
+    display: flex; flex-wrap: wrap; gap: 20px; list-style: none;padding: 0; cursor: pointer;
+}
+.bottomDetails {
+    width: 100%; color: white;
+}
+
+.linkOneRect{
+    width: 100%; height: 20px;
+}
+.finalBottomRect{
+    width: 100%; height: 50px; 
+    display: flex; align-items: center;
+}
